@@ -1,0 +1,24 @@
+{
+  "applications": [
+    {
+      "key": "movies",
+      "name": "Movies",
+      "description": "My dcupl application for movies from Kaggle"
+    }
+  ],
+  "resources": [
+    {
+      "url": "${baseUrl}/models/a.dcupl.json",
+      "type": "model"
+    },
+    {
+      "url": "${baseUrl}/data/movies/movies_metadata.csv",
+      "type": "data",
+      "model": "metadata"
+    },
+    {
+      "url": "${baseUrl}/models/movies/metadata.dcupl.json",
+      "type": "model"
+    }
+  ]
+}

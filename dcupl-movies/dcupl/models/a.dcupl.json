@@ -1,0 +1,14 @@
+{
+  "key": "modelA",
+  "properties": [
+    {
+      "key": "todo",
+      "type": "string"
+    },
+    {
+      "key": "title",
+      "type": "string",
+      "filter": true
+    }
+  ]
+}

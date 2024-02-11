@@ -1,0 +1,18 @@
+[
+  {
+    "key": "step-1",
+    "todo": "Todo: You can update this dataset in 'data/a.data.json'",
+    "title": "dcupl is simple to use"
+  },
+  {
+    "key": "step-2",
+    "title": "but also quite powerful",
+    "todo": "Todo: Add a property 'subtitle' in 'models/a.dcupl.json'",
+    "subtitle": "It worked!"
+  },
+  {
+    "key": "step-3",
+    "title": "Simple Integration",
+    "todo": "Check out our simple integration example on https://docs.dcupl.com/docs/getting-started/sdk-integration"
+  }
+]

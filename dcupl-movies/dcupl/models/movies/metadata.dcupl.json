@@ -1,0 +1,131 @@
+{
+    "key": "metadata",
+    "keyProperty": "key",
+    "references": [],
+    "properties": [
+      {
+        "key": "adult",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "belongs_to_collection",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "budget",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "genres",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "homepage",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "id",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "imdb_id",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "original_language",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "original_title",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "overview",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "popularity",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "poster_path",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "production_companies",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "production_countries",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "release_date",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "revenue",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "runtime",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "spoken_languages",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "status",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "tagline",
+        "type": "any",
+        "filter": true
+      },
+      {
+        "key": "title",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "video",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "vote_average",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "vote_count",
+        "type": "string",
+        "filter": true
+      }
+    ],
+    "autoGenerateKey": true,
+    "supportsAutoCreation": false,
+    "valueMappings": [],
+    "autoGenerateProperties": true
+  }
