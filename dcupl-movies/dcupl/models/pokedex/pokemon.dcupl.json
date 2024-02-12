@@ -1,0 +1,216 @@
+{
+    "key": "pokemon",
+    "keyProperty": "pokedex_number",
+    "references": [],
+    "properties": [
+      {
+        "key": "abilities",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_bug",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_dark",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_dragon",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_electric",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_fairy",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_fight",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_fire",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_flying",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_ghost",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_grass",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_ground",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_ice",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_normal",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_poison",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_psychic",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_rock",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_steel",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "against_water",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "attack",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "base_egg_steps",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "base_happiness",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "base_total",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "capture_rate",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "classfication",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "defense",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "experience_growth",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "height_m",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "hp",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "japanese_name",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "name",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "percentage_male",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "pokedex_number",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "sp_attack",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "sp_defense",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "speed",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "type1",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "type2",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "weight_kg",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "generation",
+        "type": "string",
+        "filter": true
+      },
+      {
+        "key": "is_legendary",
+        "type": "string",
+        "filter": true
+      }
+    ],
+    "autoGenerateKey": false,
+    "supportsAutoCreation": false,
+    "valueMappings": [],
+    "autoGenerateProperties": true
+  }

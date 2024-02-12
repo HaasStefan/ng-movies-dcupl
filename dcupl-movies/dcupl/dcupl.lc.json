@@ -4,13 +4,14 @@
       "key": "movies",
       "name": "Movies",
       "description": "My dcupl application for movies from Kaggle"
+    },
+    {
+      "key": "pokedex",
+      "name": "Pokedex",
+      "description": "Pokemon dataset without images"
     }
   ],
   "resources": [
-    {
-      "url": "${baseUrl}/models/a.dcupl.json",
-      "type": "model"
-    },
     {
       "url": "${baseUrl}/data/movies/movies_metadata.csv",
       "type": "data",
@@ -18,6 +19,15 @@
     },
     {
       "url": "${baseUrl}/models/movies/metadata.dcupl.json",
+      "type": "model"
+    },
+    {
+      "url": "${baseUrl}/data/pokedex/pokemon.csv",
+      "type": "data",
+      "model": "pokemon"
+    },
+    {
+      "url": "${baseUrl}/models/pokedex/pokemon.dcupl.json",
       "type": "model"
     }
   ]

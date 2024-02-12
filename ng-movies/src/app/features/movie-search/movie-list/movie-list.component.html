@@ -1,0 +1,7 @@
+
+<h1 class="text-4xl mb-4 p-4 font-bold">Movies (virtual scroll)</h1>
+<cdk-virtual-scroll-viewport itemSize="24" class="flex-grow">
+  <div *cdkVirtualFor="let item of movies$; let i = index" class="pb-2">
+    <app-movie-card [movie]="item" class="w-auto" />
+  </div>
+</cdk-virtual-scroll-viewport>

@@ -1,0 +1,13 @@
+<div class="p-6 rounded-lg border shadow-sm text-black" >
+  @if (movie(); as movie) {
+  <div class="flex justify-between">
+    <h2 class="text-xl font-bold">{{ movie.title }}</h2>
+    <p class="text-sm text-gray-500">{{ movie.release_date }}</p>
+  </div>
+  <p class="mt-4">{{ movie.overview }}</p>
+  <div class="mt-4">
+    <!-- image url anchor-->
+     <a [href]="'https://tmdb.org/movie/' + movie.id" class="text-blue-500">Read more</a>
+  </div>
+  }
+</div>
