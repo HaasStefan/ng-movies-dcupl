@@ -1,0 +1,31 @@
+@if (pokemon$ | async; as pokemon) { @if (pokemon.sprites) {
+<div
+  class="relative w-fit shadow-sm hover:-translate-y-1 hover:scale-105 transition-all rounded-lg duration-200 hover:shadow-lg"
+>
+  <img
+    [src]="pokemon.sprites.front_default"
+    [alt]="'pokemon-sprite-' + pokemon.name"
+    class="w-48 h-72 bg-neutral-100 border-4 rounded-lg pb-24"
+  />
+  <div class="flex flex-col absolute bottom-1 p-3">
+    <div class="text-neutral-500 text-sm font-mono">
+      #{{ pokemon.pokedex_number }}
+    </div>
+    <h2 class="text-xl font-medium mb-2">{{ pokemon.name }}</h2>
+    <div class="flex gap-2">
+      <span
+        [appPokemonType]="pokemon.type1"
+        class="text-white uppercase font-mono text-sm p-1 px-2 rounded-md"
+        >{{ pokemon.type1 }}</span
+      >
+      @if (pokemon.type2) {
+      <span
+        [appPokemonType]="pokemon.type2"
+        class="text-white uppercase font-mono text-sm p-1 px-2 rounded-md"
+        >{{ pokemon.type2 }}</span
+      >
+      }
+    </div>
+  </div>
+</div>
+} }

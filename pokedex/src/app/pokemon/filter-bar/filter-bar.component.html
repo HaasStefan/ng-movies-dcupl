@@ -1,0 +1,19 @@
+<section
+  class="flex flex-col gap-2 p-4 bg-red-700 text-white h-screen fixed w-72"
+>
+  <div class="flex justify-between items-end mb-4">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon logo" class="w-1/2">
+    <span class="text-sm text-red-100">{{pokemonLength$ | async}} Pokemon</span>
+  </div>
+  <div class="relative w-full">
+    <input
+      type="text"
+      placeholder="Pikachu"
+      class="p-3 pl-10 rounded-lg w-full border-4 border-neutral-800 text-gray-700"
+      [formControl]="pokemonName"
+    />
+    <span class="absolute p-3 bottom-2 left-0">
+      <img src="/assets/search.svg" alt="search icon" width="20" />
+    </span>
+  </div>
+</section>

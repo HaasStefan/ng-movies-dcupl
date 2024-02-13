@@ -1,0 +1,15 @@
+<app-filter-bar />
+
+<div class="pl-72">
+  @if (pokemons$ | async; as pokemons) { @if (pokemons.length > 0) {
+  <div class="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 p-4">
+    @for (pokemon of pokemons; track $index) {
+    <app-pokemon-card [pokedexNumber]="pokemon.pokedex_number" />
+    }
+  </div>
+  } @else {
+  <div class="flex justify-center text-2xl items-center h-96">No Pokemon found</div>
+  } } @else {
+  <div class="flex justify-center text-2xl items-center h-96">Loading...</div>
+  }
+</div>
